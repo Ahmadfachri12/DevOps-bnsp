@@ -10,7 +10,7 @@ Berikut adalah alur kerja otomatisasi (CI/CD) dan sistem monitoring yang diimple
 ## 📊 Hasil Monitoring
 Berikut adalah tampilan dashboard monitoring resource server menggunakan Grafana yang menunjukkan penggunaan CPU dan Memori secara real-time:
 
-![Grafana Monitoring Dashboard](grafana-dashboard.png)
+![Grafana Monitoring Dashboard](grafana_dashboard.png)
 
 Proyek ini merupakan implementasi alur kerja DevOps modern untuk aplikasi berbasis Python Flask. Mencakup proses kontainerisasi menggunakan Docker, otomatisasi deployment melalui GitHub Actions ke VPS, serta sistem observabilitas menggunakan Prometheus dan Grafana.
 
