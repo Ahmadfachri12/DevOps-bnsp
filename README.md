@@ -31,4 +31,18 @@ Proyek ini mengintegrasikan siklus hidup pengembangan perangkat lunak (SDLC) yan
 1.  **Code:** Pengembang melakukan perubahan kode di lokal.
 2.  **Push:** Kode dikirim ke GitHub.
 3.  **Deploy:** GitHub Actions secara otomatis melakukan SSH ke VPS, menarik kode terbaru, dan melakukan re-build container.
-4.  **Monitor:** Resource server dipantau secara real-time melalui dashboard Grafana.        
+4.  **Monitor:** Resource server dipantau secara real-time melalui dashboard Grafana.
+
+---
+
+## 📂 Struktur Proyek
+```text
+.
+├── .github/workflows/
+│   └── deploy.yml         
+├── app.py                 
+├── Dockerfile             
+├── docker-compose.yml     
+├── prometheus.yml         
+├── requirements.txt        
+└── README.md    
