@@ -22,7 +22,7 @@ Proyek ini merupakan implementasi alur kerja DevOps modern untuk aplikasi berbas
 * **CI/CD:** GitHub Actions (SSH Deployment)
 * **Monitoring:** Prometheus & Node Exporter
 * **Visualisasi:** Grafana Dashboard
-* **Infrastruktur:** Cloud VPS / AWS EC2
+* **Infrastruktur:** Cloud VPS
 
 ---
 
